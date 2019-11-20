@@ -1,9 +1,9 @@
 a = [1,7,3,4,2,2,6,5,7,8,0,1,8]
-# b = [2,6,5,7,8,1,7,3,4,2,0,1,8,4,9,9,2,6,3]
-# c = [1,8,4,9,5,7,8,4,2,0]
+b = [2,6,5,7,8,1,7,3,4,2,0,1,8,4,9,9,2,6,3]
+c = [1,8,4,9,5,7,8,4,2,0]
 # sorted_bucket =[]
 def bucket_sort(arr)
-  index = [*(0..12)]
+  index = [*(0..20)]
   # index = []
   index.each do |num|
     index[num] = []
@@ -33,5 +33,5 @@ def bucket_sort(arr)
 end
 
 p bucket_sort(a)
-# p bucket_sort(b)
-# p bucket_sort(c)
+p bucket_sort(b)
+p bucket_sort(c)
